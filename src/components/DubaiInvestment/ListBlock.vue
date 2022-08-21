@@ -368,7 +368,7 @@ export default {
       flex-wrap: wrap;
       .img-city {
         width: calc(50% - 6px);
-        border-radius: 25px;
+        border-radius: 15px;
         object-fit: cover;
         box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1);
         &:nth-child(odd) {
