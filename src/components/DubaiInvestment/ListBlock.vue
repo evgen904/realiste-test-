@@ -295,6 +295,9 @@ export default {
       border-radius: 15px;
       object-fit: cover;
       box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1);
+      @media all and (max-width: 640px) {
+        border-radius: 20px;
+      }
     }
     .point-1 {
       position: absolute;
@@ -379,6 +382,9 @@ export default {
         }
         &:nth-child(1), &:nth-child(2) {
           margin-bottom: 14px;
+        }
+        @media all and (max-width: 640px) {
+          border-radius: 20px;
         }
       }
     }

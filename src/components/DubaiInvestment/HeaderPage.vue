@@ -24,6 +24,9 @@ export default {
   align-items: center;
   position: relative;
   z-index: 100;
+  @media all and (max-width: 640px) {
+    height: 60px;
+  }
   &.animate-header {
     @keyframes fadeInDown {
       0% {

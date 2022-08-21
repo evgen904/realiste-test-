@@ -57,6 +57,9 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  @media all and (max-width: 640px) {
+    height: 80px;
+  }
   &.animate-footer {
     @keyframes fadeInUp {
       0% {

@@ -90,7 +90,7 @@ export default {
     font-size: calc(100vw / 60);
   }
   @media all and (max-width: 640px) {
-    font-size: calc(100vw / 32);
+    font-size: calc(100vw / 34);
   }
 }
 </style>
