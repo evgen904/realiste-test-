@@ -75,10 +75,10 @@ export default {
     transform: translate(-50%, -50%);
   }
   @media all and (max-width: 1600px) {
-    font-size: calc(100vw / 106);
+    font-size: calc(100vw / 110);
   }
   @media all and (max-width: 1440px) {
-    font-size: calc(100vw / 90);
+    font-size: calc(100vw / 106);
   }
   @media all and (max-width: 1200px) {
     font-size: calc(100vw / 80);

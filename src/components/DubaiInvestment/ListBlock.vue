@@ -222,12 +222,12 @@ export default {
   &--block {
     display: flex;
     flex-wrap: nowrap;
-    padding: 20px 0 20px 39em;
+    padding: 20px 0 20px 44em;
     @media all and (max-width: 1600px) {
-      padding-left: 36em;
+      padding-left: 40em;
     }
     @media all and (max-width: 1440px) {
-      padding-left: 30em;
+      padding-left: 38em;
     }
     @media all and (max-width: 1200px) {
       padding-left: 26em;
