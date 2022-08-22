@@ -58,7 +58,7 @@ export default {
   min-height: 100%;
   user-select: none;
   font-family: Arial, sans-serif;
-  font-size: calc(100vw / 106.4);
+  font-size: calc(100vw / 120);
   position: relative;
   background: #f7f7f7 url("~assets/bg-body.png") 50% 50% no-repeat;
   background-size: cover;
@@ -91,6 +91,9 @@ export default {
   }
   @media all and (max-width: 640px) {
     font-size: calc(100vw / 34);
+  }
+  @media all and (max-width: 380px) {
+    font-size: calc(100vw / 38);
   }
 }
 </style>

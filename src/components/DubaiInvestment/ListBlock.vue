@@ -216,6 +216,9 @@ export default {
   overflow: auto;
   position: relative;
   cursor: grab;
+  &::-webkit-scrollbar {
+    display: none;
+  }
   &--block {
     display: flex;
     flex-wrap: nowrap;
